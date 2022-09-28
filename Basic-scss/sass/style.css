@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #ffab73;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+main {
+  background: #ffd384;
+}
+
+#about p {
+  font-size: 15px;
+}
+
+footer {
+  background: #ffaec0;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Tenor+Sans&display=swap');
+
+:root{
+  --color1:#fff;
+  --color2:#0f6cb2;
+  --color3:#157ed2;
+  --color4:#157ed2;
+  --color5:#fdd922;
+  --color6:#e9c532;
+  --color7:#333;
+  --color8:#666666;
+  --color9:#eaeaea;
+  --color10:#010101;
+  --color11:#ff4747;
+}
+/* background-color: var(--color10) ; */
+/*color: var(--color2);*/
+
+/* @media only screen and (min-width: 0px) and (max-width:14000px) {
+  .container{
+    width: 1500px !important;
+  }
+} */
+
+        <Container>
+             <style type="text/css">
+                {
+                  `.tmp1-banner-slider .slick-prev, .tmp1-banner-slider .slick-next{
+                        background-color: ${getStarting?.primaryColor} !important;
+                   }
+                   .tmp1-banner-slider .slick-dots li.slick-active button:before{
+                        color: ${getStarting?.primaryColor} !important;
+                        font-size: 14px !important;
+                    }
+                   .tmp1-banner-dropdown-container span:hover{
+                        color: ${getStarting?.primaryColor} !important;
+                    }
+                   `
+                }
+            </style>
+            <div className="tmp1-banner-container">
+                <div className="tmp1-banner-categories">
+                        <h4>Categories</h4>
+                </div>
+            </div>
+        </Container>
